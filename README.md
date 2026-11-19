@@ -30,12 +30,35 @@ Dibuat dengan Python (Flask) dan menampilkan data cuaca langsung dari Open-Meteo
 
 ## Cara Menjalankan
 
-```bash
-pip install flask requests
-python app.py
-```
+Server bisa dihidupkan lewat **OpenCode / Hermes** (meminta agent menjalankannya) atau lewat terminal **VS Code**.
 
-Buka browser ke <http://127.0.0.1:5000>
+### 1. Lewat OpenCode / Hermes (agent)
+
+Minta agent untuk menyalakan server, contohnya:
+
+> jalankan `python app.py`
+
+Agent akan mengeksekusi perintahnya dan server langsung aktif.
+
+### 2. Lewat VS Code
+
+1. Buka folder proyek di VS Code (`File > Open Folder`).
+2. Buka terminal: `Terminal > New Terminal` (atau `` Ctrl + ` ``).
+3. Instal dependensi (cukup sekali):
+
+   ```bash
+   pip install flask requests
+   ```
+
+4. Jalankan aplikasi:
+
+   ```bash
+   python app.py
+   ```
+
+### 3. Buka di Browser
+
+<http://127.0.0.1:5000>
 
 ## Struktur
 

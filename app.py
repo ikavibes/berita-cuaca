@@ -294,13 +294,23 @@ PAGE_TEMPLATE = r"""
                 </ul>
             </div>
 
-            <div class="bg-gradient-to-br from-sky-900/40 to-slate-800 p-6 rounded-2xl border border-sky-800/40 shadow-xl text-center">
-                <p class="text-sky-300 font-semibold mb-2">🚀 Cara Menjalankan di VS Code</p>
-                <p class="text-xs text-slate-300 mb-4">Buka terminal di VS Code, instal Flask, lalu jalankan aplikasinya.</p>
-                <div class="bg-slate-900 p-3 rounded-lg text-xs font-mono text-emerald-400 overflow-x-auto text-left space-y-1">
+            <div class="bg-gradient-to-br from-sky-900/40 to-slate-800 p-6 rounded-2xl border border-sky-800/40 shadow-xl">
+                <p class="text-sky-300 font-semibold mb-3 text-center">🚀 Cara Menjalankan Server</p>
+                <div class="space-y-2 text-xs text-slate-300">
+                    <p>
+                        <span class="font-semibold text-white">1. OpenCode / Hermes</span><br>
+                        Minta agent menjalankan <span class="font-mono text-emerald-400">python app.py</span>
+                    </p>
+                    <p>
+                        <span class="font-semibold text-white">2. VS Code</span><br>
+                        Buka terminal (<span class="font-mono">Ctrl + `</span>), lalu jalankan perintah di bawah.
+                    </p>
+                </div>
+                <div class="bg-slate-900 p-3 rounded-lg text-xs font-mono text-emerald-400 overflow-x-auto text-left space-y-1 mt-3">
                     <p>pip install flask requests</p>
                     <p>python app.py</p>
                 </div>
+                <p class="text-[11px] text-slate-400 mt-2 text-center">Lalu buka http://127.0.0.1:5000</p>
             </div>
         </aside>
     </main>
