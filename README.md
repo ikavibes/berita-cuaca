@@ -16,6 +16,12 @@ Dibuat dengan Python (Flask) dan menampilkan data cuaca langsung dari Open-Meteo
 - Warna tema kartu berubah sesuai kondisi cuaca
 - Pilihan kota tersimpan di URL (`?city=Tokyo`), aman saat refresh
 
+## Tampilan Aplikasi
+
+| Cuaca Cerah | Hujan | Badai Petir |
+|:---:|:---:|:---:|
+| ![Cuaca cerah](docs/screenshots/cerah.png) | ![Hujan](docs/screenshots/hujan.png) | ![Badai petir](docs/screenshots/badai.png) |
+
 ## Teknologi
 
 - Python 3 + Flask
@@ -35,10 +41,15 @@ Buka browser ke <http://127.0.0.1:5000>
 
 ```
 berita-cuaca/
-├── app.py            # seluruh aplikasi (Python + HTML/CSS/JS)
+├── app.py                     # seluruh aplikasi (Python + HTML/CSS/JS)
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── docs/
+    └── screenshots/           # gambar tampilan aplikasi
+        ├── cerah.png
+        ├── hujan.png
+        └── badai.png
 ```
 
 ## API
